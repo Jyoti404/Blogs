@@ -1,0 +1,25 @@
+.landing_wrapper{
+    min-height:50vh;
+    padding:1 rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+}
+.landing_wrapper h1{
+    font-size:4rem;
+}
+.searchInput{
+    padding:1rem 2rem;
+    width:70%;
+
+}
+.landing_wrapper .icon-wrapper{
+    background-color: white;
+    border:none;
+}
+.landing_wrapper input:focus{
+    box-shadow: none;
+    outline:none;
+}
